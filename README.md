@@ -40,7 +40,7 @@
 ## Conclusion:
 ### Increasing the short window to 6 and long window to 115 for a 3 month training dataset produces the best set of parameters that provide us with improved trading algorithm returns. Based on these parameters, accuracy score is 56% and recall score is 99%.
 
-## AdaBoost Model
+## AdaBoost Classifier Model
 ### Question: Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
 ### Answer: The accuracy increased majorly (to 83%) when compared to both, the base model (55%) and the tuned model (56%). But the recall level have decreased slightly to 0.97 in the AdaBoost model when compared with the tuned algo model (0.99) but are higher when compared to the base model (0.95).The AdaBoost model is a better perfroming model, when compared to both the base and tuned algorithm models.
 ![AdaBoost](https://user-images.githubusercontent.com/118318397/224222448-123e827d-b8d2-4454-b4cc-10745ae7d7af.JPG)
